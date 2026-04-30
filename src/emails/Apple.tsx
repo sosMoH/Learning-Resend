@@ -36,7 +36,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column>
                 <Img
-                  src={`${baseUrl}/apple-logo.png`}
+                  src="https://i.postimg.cc/xjxP0nrC/apple-logo.png"
                   width="42"
                   height="42"
                   alt="Apple Logo"
@@ -139,7 +139,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column className="w-16">
                 <Img
-                  src={`${baseUrl}/iphone-17-pro-max.png`}
+                  src="https://i.postimg.cc/2817yMmT/iphone-17-pro-max.png"
                   width="64"
                   height="64"
                   alt="iPhone 17 Pro Max - Deep Blue"
@@ -188,7 +188,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column className="w-16">
                 <Img
-                  src={`${baseUrl}/apple-watch.png`}
+                  src="https://i.postimg.cc/Dfjc2nVm/apple-watch.png"
                   width="64"
                   height="64"
                   alt="Apple Watch Series 11 GPS - 46mm"
@@ -256,7 +256,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column align="center" className="block">
                 <Img
-                  src={`${baseUrl}/apple-card.png`}
+                  src="https://i.postimg.cc/h4y0ScFv/apple-card.png"
                   width="60"
                   height="17"
                   alt="Apple Card"
@@ -281,7 +281,7 @@ export const AppleReceiptEmail = () => (
                   className="text-[rgb(0,126,255)] no-underline"
                 >
                   <Img
-                    src={`${baseUrl}/apple-wallet.png`}
+                    src="https://i.postimg.cc/wxfk6gK1/apple-wallet.png"
                     width="28"
                     height="28"
                     alt="Apple Wallet"
