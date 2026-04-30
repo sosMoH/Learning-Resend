@@ -1,6 +1,7 @@
 // Get the full source code, including the theme and Tailwind config:
 // https://github.com/resend/react-email/tree/canary/apps/demo/emails
 
+import React from 'react';
 import {
   Body,
   Column,
@@ -22,7 +23,7 @@ import tailwindConfig from "../../tailwind.config";
 //   ? `https://${process.env.VERCEL_URL}`
 //   : "";
 
-const baseUrl = 'https://raw.githubusercontent.com/sosMoH/Learning-Resend/main/src/assets';
+const baseUrl = 'https://cdn.jsdelivr.net/gh/sosMoH/Learning-Resend@main/src/assets';
 
 export const AppleReceiptEmail = () => (
   <Html>
