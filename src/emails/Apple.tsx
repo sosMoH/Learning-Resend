@@ -22,7 +22,7 @@ import tailwindConfig from "../../tailwind.config";
 //   ? `https://${process.env.VERCEL_URL}`
 //   : "";
 
-const baseUrl = '[https://demo.react.email](https://demo.react.email)';
+const baseUrl = 'https://raw.githubusercontent.com/sosMoH/Learning-Resend/main/src/assets';
 
 export const AppleReceiptEmail = () => (
   <Html>
@@ -35,7 +35,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column>
                 <Img
-                  src={`${baseUrl}/static/apple-logo.png`}
+                  src={`${baseUrl}/apple-logo.png`}
                   width="42"
                   height="42"
                   alt="Apple Logo"
@@ -138,7 +138,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column className="w-16">
                 <Img
-                  src={`${baseUrl}/static/apple-hbo-max-icon.jpeg`}
+                  src={`${baseUrl}/iphone-17-pro-max.png`}
                   width="64"
                   height="64"
                   alt="iPhone 17 Pro Max - Deep Blue"
@@ -187,7 +187,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column className="w-16">
                 <Img
-                  src={`${baseUrl}/static/apple-hbo-max-icon.jpeg`}
+                  src={`${baseUrl}/apple-watch.png`}
                   width="64"
                   height="64"
                   alt="Apple Watch Series 11 GPS - 46mm"
@@ -255,7 +255,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column align="center" className="block">
                 <Img
-                  src={`${baseUrl}/static/apple-card-icon.png`}
+                  src={`${baseUrl}/apple-card.png`}
                   width="60"
                   height="17"
                   alt="Apple Card"
@@ -280,7 +280,7 @@ export const AppleReceiptEmail = () => (
                   className="text-[rgb(0,126,255)] no-underline"
                 >
                   <Img
-                    src={`${baseUrl}/static/apple-wallet.png`}
+                    src={`${baseUrl}/apple-wallet.png`}
                     width="28"
                     height="28"
                     alt="Apple Wallet"
@@ -364,7 +364,7 @@ export const AppleReceiptEmail = () => (
             <Row>
               <Column align="center" className="block mt-10">
                 <Img
-                  src={`${baseUrl}/static/apple-logo.png`}
+                  src={`${baseUrl}/apple-logo.png`}
                   width="26"
                   height="26"
                   alt="Apple Card"
